@@ -1,5 +1,15 @@
 <script>
-	import '../app.postcss';
+	import '../app.css';
+	import Nav from '$components/Nav.svelte';
+	import PageTransition from '$components/PageTransition.svelte';
+	export let data; // => {url: '/'}
 </script>
 
-<slot />
+<div>
+	<Nav />
+	<PageTransition key="{data.url}" duration="{300}">
+		<main class="">
+			<slot />
+		</main>
+	</PageTransition>
+</div>
