@@ -4,7 +4,7 @@
 
 	// Navigation Menu Items
 	const navItems = [
-		{ label: 'A', href: '/a/' },
+		{ label: '1', href: '/1/' },
 		{ label: 'B', href: '/b/' },
 		{ label: 'C', href: '/c/' },
 		{ label: 'D', href: '/d/' }

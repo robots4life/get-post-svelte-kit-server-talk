@@ -3,6 +3,7 @@
 	import Nav from '$components/Nav.svelte';
 	import PageTransition from '$components/PageTransition.svelte';
 	export let data; // => {url: '/'}
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <div>
@@ -13,3 +14,4 @@
 		</main>
 	</PageTransition>
 </div>
+<Footer />

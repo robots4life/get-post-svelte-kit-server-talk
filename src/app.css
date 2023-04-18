@@ -2,9 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+/* html {
 	background-color: rgb(0, 40, 78);
 	color: cornsilk;
+	overflow-y: scroll;
+} */
+
+/* https://www.freecodecamp.org/news/html-page-width-height/ */
+/* body {
+	min-height: 100vh;
+} */
+
+/* https://play.tailwindcss.com/J7uMY8h6LP?size=540x723 */
+/* https://play.tailwindcss.com/6eHlczPHng?size=540x721 */
+html {
+	/* height: 100%; */
+	background-color: rgb(0, 40, 78);
+	color: cornsilk;
+	overflow-y: scroll;
+}
+
+body {
+	/* display: flex;
+	flex-direction: column;
+	min-height: 100%; */
+	min-height: 100vh;
 }
 
 @layer base {
