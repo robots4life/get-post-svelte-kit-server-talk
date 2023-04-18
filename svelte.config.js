@@ -1,4 +1,8 @@
-import adapter from '@sveltejs/adapter-auto';
+// import adapter from '@sveltejs/adapter-auto';
+
+// https://kit.svelte.dev/docs/adapter-static#usage
+// npm install --save-dev @sveltejs/adapter-static --verbose
+import adapter from '@sveltejs/adapter-static';
 
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
@@ -16,9 +20,9 @@ const config = {
 		},
 
 		// https://kit.svelte.dev/docs/configuration#csrf
-		// turn off during development on https://project-name.loc
-		// for production this should always be true
 		csrf: {
+			// turn off during development on https://project-name.loc
+			// for production this should always be true
 			checkOrigin: false
 			// checkOrigin: true
 		}

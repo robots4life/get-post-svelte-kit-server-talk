@@ -13,4 +13,4 @@ export const trailingSlash = 'always';
 // https://kit.svelte.dev/docs/page-options#prerender
 // after discussion with matia I turn prerender off for entire site and use ssr and caching
 // https://discord.com/channels/525725325007650828/1073375239288922132/1077576952958963873
-// export const prerender = true;
+export const prerender = true;

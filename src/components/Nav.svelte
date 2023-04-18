@@ -4,10 +4,16 @@
 
 	// Navigation Menu Items
 	const navItems = [
-		{ label: '1', href: '/1/' },
-		{ label: 'B', href: '/b/' },
-		{ label: 'C', href: '/c/' },
-		{ label: 'D', href: '/d/' }
+		{ label: '1', href: '/1/' }
+		// { label: '2', href: '/2/' },
+		// { label: '3', href: '/3/' },
+		// { label: '4', href: '/4/' },
+		// { label: '5', href: '/5/' },
+		// { label: '6', href: '/6/' },
+		// { label: '7', href: '/7/' },
+		// { label: '8', href: '/8/' },
+		// { label: '9', href: '/9/' },
+		// { label: '10', href: '/10/' }
 	];
 
 	// Navigation Menu
@@ -58,7 +64,7 @@
 	// and data-sveltekit-preload-data="hover" from nav > ul
 </script>
 
-<header class="bg-gray-800 relative w-full 140:h-[140px] 240:h-[80px] 768:flex 768:px-4 1440:px-8">
+<header class="bg-gray-800 relative w-full 140:h-[140px] 240:h-[80px] 768:flex 768:px-4">
 	<div
 		class="bg-blue-900 text-4xl flex flex-col z-20 absolute w-full 140:h-[140px] 240:flex-row 240:h-[80px] 768:static 768:w-1/6 768:text-3xl 1024:text-4xl"
 	>
