@@ -40,4 +40,11 @@
 		href="https://developer.mozilla.org/en-US/docs/Web/API/Response"
 		>https://developer.mozilla.org/en-US/docs/Web/API/Response</a
 	>
+	<a
+		class="block mb-8"
+		target="_blank"
+		rel="noreferrer"
+		href="https://github.com/mdn/dom-examples/tree/main/fetch"
+		>https://github.com/mdn/dom-examples/tree/main/fetch</a
+	>
 </div>
