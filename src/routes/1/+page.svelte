@@ -72,7 +72,6 @@
 		href="https://developer.mozilla.org/en-US/docs/Web/API/Response/json"
 		>https://developer.mozilla.org/en-US/docs/Web/API/Response/json</a
 	>
-
 	<CodeBlock
 		language="javascript"
 		code="{code1}"
@@ -83,12 +82,12 @@
 		showLineNumbers="{true}"
 	/>
 	<button
-		class="bg-gray-600 cornsilk font-bold text-xl w-1/6 rounded-2xl p-2 mt-4"
-		on:click="{logJSONData}">logJSONData</button
+		class="bg-gray-600 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+		on:click="{logJSONData}"><p>logJSONData</p></button
 	>
 	<button
-		class="bg-gray-600 cornsilk font-bold text-xl w-1/6 rounded-2xl p-2 mt-4"
-		on:click="{clearJSONData}">clearJSONData</button
+		class="bg-gray-600 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+		on:click="{clearJSONData}"><p>clearJSONData</p></button
 	>
 	<p>jsonData {JSON.stringify(jsonData) ?? ''}</p>
 </div>
@@ -121,12 +120,12 @@
 		showLineNumbers="{true}"
 	/>
 	<button
-		class="bg-gray-600 cornsilk font-bold text-xl w-1/6 rounded-2xl p-2 mt-4"
-		on:click="{logTEXTData}">logTEXTData</button
+		class="bg-gray-600 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+		on:click="{logTEXTData}"><p>logTEXTData</p></button
 	>
 	<button
-		class="bg-gray-600 cornsilk font-bold text-xl w-1/6 rounded-2xl p-2 mt-4"
-		on:click="{clearTEXTData}">clearTEXTData</button
+		class="bg-gray-600 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+		on:click="{clearTEXTData}"><p>clearTEXTData</p></button
 	>
 	<p>textData {JSON.stringify(textData) ?? ''}</p>
 </div>
