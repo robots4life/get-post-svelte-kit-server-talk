@@ -1,1 +1,7 @@
+# https://svhighlight.vercel.app/
+
+1. terminal
 npm install --save-dev svhighlight highlight.js --verbose
+
+2. tailwind.config.js
+content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/svhighlight/**/*.svelte'],

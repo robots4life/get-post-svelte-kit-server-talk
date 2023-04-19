@@ -9,7 +9,7 @@
 <div>
 	<Nav />
 	<PageTransition key="{data.url}" duration="{300}">
-		<main class="mx-4 border">
+		<main class="mx-4">
 			<slot />
 		</main>
 	</PageTransition>

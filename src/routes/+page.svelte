@@ -1,1 +1,1 @@
-<h1>A simple introduction to GET and POST requests with Svelte, SvelteKit and Server Endpoints</h1>
+<h1>GET & POST requests with Svelte, SvelteKit & Server Endpoints</h1>
