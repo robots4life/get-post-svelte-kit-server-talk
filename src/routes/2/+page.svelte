@@ -13,12 +13,10 @@
 		{ lines: '', text: 'Remove Blur' },
 		{
 			lines: '0',
-			scrollLine: 1,
 			text: '1: create a new file +page.svelte in src/routes/my-first-page/'
 		},
 		{
 			lines: '2-4',
-			scrollLine: 1,
 			text: '2: write some HTML markup to the +page.svelte file'
 		}
 	];

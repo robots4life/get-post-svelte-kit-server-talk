@@ -17,10 +17,10 @@
 
 {#if previousPage == '/3/'}
 	<h1>{JSON.stringify(data)}</h1>
-	<p>{data.greeting}</p>
+	<h2>{data.greeting}</h2>
 {/if}
 
-{#if previousPage == '/2/'}
+{#if previousPage == '/2/' || previousPage == ''}
 	<button class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
 		><a class="block" href="/2">/2</a></button
 	>

@@ -15,51 +15,50 @@ export async function load() {
 		{ lines: '', text: 'Remove Blur' },
 		{
 			lines: '0',
-			scrollLine: 1,
 			text: '1: create a new file +page.js in src/routes/my-first-page/'
 		},
 		{
-			lines: '2-6',
-			scrollLine: 1,
-			text: '2: use the load function to return data for the page'
+			lines: '2',
+			text: '2: define the async load function'
+		},
+		{
+			lines: '3-5',
+			text: '3: return data for the page'
 		},
 		{
 			lines: '4',
-			scrollLine: 1,
-			text: '3: pay attention to the key value pair of data being passed to the page'
+			text: '4: pay attention to the key value pair of data being passed to the page'
 		}
 	];
 
-	let code2 = `
-    src/routes/my-first-page/+page.svelte
+	let code2 = `src/routes/my-first-page/+page.svelte
 
 <script>
 	export let data;
 <\/script>
 
+<h1>Hello and Welcome to my Site !</h1>
+<h2>Peace & Love for Everyone :)</h2>
+<h3>Do you like Ice Cream ?</h3>
+
 <h1>{JSON.stringify(data)}</h1>
-<p>{data.greeting}</p>
-    `;
+<h2>{data.greeting}</h2>`;
 	let focusBlocks2 = [
 		{ lines: '', text: 'Remove Blur' },
 		{
 			lines: '0',
-			scrollLine: 1,
 			text: '1: go to the +page.svelte file in src/routes/my-first-page/'
 		},
 		{
-			lines: '2',
-			scrollLine: 1,
+			lines: '2-4',
 			text: '2: create a script block at the top of the file'
 		},
 		{
 			lines: '3',
-			scrollLine: 1,
 			text: '3: export the data property in the script block'
 		},
 		{
-			lines: '6-7',
-			scrollLine: 1,
+			lines: '10-11',
 			text: '4: add the loaded data to the markup'
 		}
 	];
@@ -83,7 +82,7 @@ export async function load() {
 		code="{code1}"
 		focusBlocks="{focusBlocks1}"
 		showFocusButtons="{true}"
-		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/5 rounded-2xl p-4 mb-2"
+		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/6 rounded-2xl p-4 mb-2"
 		showHeader="{false}"
 		showLineNumbers="{true}"
 	/>
@@ -103,7 +102,7 @@ export async function load() {
 		page.
 	</h2>
 	<CodeBlock
-		language="javascript"
+		language="svelte"
 		code="{code2}"
 		focusBlocks="{focusBlocks2}"
 		showFocusButtons="{true}"

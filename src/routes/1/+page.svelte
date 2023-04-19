@@ -22,10 +22,10 @@
     `;
 	let focusBlocks1 = [
 		{ lines: '', text: 'Remove Blur' },
-		{ lines: '0', scrollLine: 1, text: '1: define async function' },
-		{ lines: '1', scrollLine: 1, text: '2: await fetch resource' },
-		{ lines: '2', scrollLine: 1, text: '3: await fetch JSON response' },
-		{ lines: '3', scrollLine: 1, text: '4: log JSON data' }
+		{ lines: '0', text: '1: define the async function' },
+		{ lines: '1', text: '2: await fetch resource' },
+		{ lines: '2', text: '3: await fetch JSON response' },
+		{ lines: '3', text: '4: log JSON data' }
 	];
 
 	let textData;
@@ -47,10 +47,10 @@
     `;
 	let focusBlocks2 = [
 		{ lines: '', text: 'Remove Blur' },
-		{ lines: '0', scrollLine: 1, text: '1: define async function' },
-		{ lines: '1', scrollLine: 1, text: '2: await fetch resource' },
-		{ lines: '2', scrollLine: 1, text: '3: await fetch TEXT response' },
-		{ lines: '3', scrollLine: 1, text: '4: log TEXT data' }
+		{ lines: '0', text: '1: define the async function' },
+		{ lines: '1', text: '2: await fetch resource' },
+		{ lines: '2', text: '3: await fetch TEXT response' },
+		{ lines: '3', text: '4: log TEXT data' }
 	];
 </script>
 
