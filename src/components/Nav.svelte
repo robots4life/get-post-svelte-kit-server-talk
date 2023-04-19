@@ -21,8 +21,8 @@
 	let showMenu = false;
 
 	function toggleMenu(e) {
-		console.log(e);
-		console.log(window.innerWidth);
+		// console.log(e);
+		// console.log(window.innerWidth);
 		if (window.innerWidth < 768) {
 			nav.classList.add('transform');
 			if (!nav.classList.contains('down')) {
@@ -36,7 +36,7 @@
 	}
 
 	function toggleMenuOnLogo(e) {
-		console.log(e);
+		// console.log(e);
 		if (window.innerWidth < 768 && nav.classList.contains('down')) {
 			nav.classList.add('up');
 			nav.classList.remove('down');
