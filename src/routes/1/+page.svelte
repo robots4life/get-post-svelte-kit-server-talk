@@ -77,16 +77,16 @@
 		code="{code1}"
 		focusBlocks="{focusBlocks1}"
 		showFocusButtons="{true}"
-		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/6 rounded-2xl p-2 mb-2"
+		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/6 rounded-2xl p-4 mb-2"
 		showHeader="{false}"
 		showLineNumbers="{true}"
 	/>
 	<button
-		class="bg-gray-600 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+		class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
 		on:click="{logJSONData}"><p>logJSONData</p></button
 	>
 	<button
-		class="bg-gray-600 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+		class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
 		on:click="{clearJSONData}"><p>clearJSONData</p></button
 	>
 	<p>jsonData {JSON.stringify(jsonData) ?? ''}</p>
@@ -115,16 +115,16 @@
 		code="{code2}"
 		focusBlocks="{focusBlocks2}"
 		showFocusButtons="{true}"
-		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/6 rounded-2xl p-2 mb-2"
+		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/6 rounded-2xl p-4 mb-2"
 		showHeader="{false}"
 		showLineNumbers="{true}"
 	/>
 	<button
-		class="bg-gray-600 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+		class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
 		on:click="{logTEXTData}"><p>logTEXTData</p></button
 	>
 	<button
-		class="bg-gray-600 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+		class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
 		on:click="{clearTEXTData}"><p>clearTEXTData</p></button
 	>
 	<p>textData {JSON.stringify(textData) ?? ''}</p>

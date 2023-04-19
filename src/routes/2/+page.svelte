@@ -4,9 +4,10 @@
 
 	let code1 = `
     src/routes/my-first-page/+page.svelte
-    <h1>Hello and Welcome to my Site !</h1>
-    <h2>Peace & Love for Everyone :)</h2>
-    <h3>Do you like Ice Cream ?</h3>
+
+<h1>Hello and Welcome to my Site !</h1>
+<h2>Peace & Love for Everyone :)</h2>
+<h3>Do you like Ice Cream ?</h3>
     `;
 	let focusBlocks1 = [
 		{ lines: '', text: 'Remove Blur' },
@@ -16,7 +17,7 @@
 			text: '1: create a new file +page.svelte in src/routes/my-first-page/'
 		},
 		{
-			lines: '1-3',
+			lines: '2-4',
 			scrollLine: 1,
 			text: '2: write some HTML markup to the +page.svelte file'
 		}
@@ -40,11 +41,11 @@
 		code="{code1}"
 		focusBlocks="{focusBlocks1}"
 		showFocusButtons="{true}"
-		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mb-2"
+		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/4 rounded-2xl p-4 mb-2"
 		showHeader="{false}"
 		showLineNumbers="{true}"
 	/>
-	<button class="bg-gray-600 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+	<button class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
 		><a class="block" href="/my-first-page">/my-first-page</a></button
 	>
 </div>
