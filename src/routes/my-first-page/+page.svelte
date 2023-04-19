@@ -1,11 +1,11 @@
 <script>
-	import { goto, afterNavigate } from '$app/navigation';
+	import { afterNavigate } from '$app/navigation';
 	import { base } from '$app/paths';
 	let previousPage = base;
 
 	afterNavigate(({ from }) => {
 		previousPage = from?.url.pathname || previousPage;
-		console.log(previousPage);
+		// console.log(previousPage);
 	});
 	export let data;
 	delete data.url;
