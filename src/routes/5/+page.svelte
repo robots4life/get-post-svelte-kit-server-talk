@@ -111,7 +111,7 @@ export const GET = async () => {
 		href="https://developer.mozilla.org/en-US/docs/Web/API/Headers"
 		>https://developer.mozilla.org/en-US/docs/Web/API/Headers</a
 	>
-	<button class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+	<button class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 my-4"
 		><a class="block" href="/api">/src/routes/api</a></button
 	>
 </div>

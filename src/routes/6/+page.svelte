@@ -116,7 +116,7 @@ export const POST = async (event) => {
 		code="{code1}"
 		focusBlocks="{focusBlocks1}"
 		showFocusButtons="{true}"
-		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/5 rounded-2xl p-4 mb-2"
+		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/5 rounded-2xl p-2 mb-2"
 		showHeader="{false}"
 		showLineNumbers="{true}"
 	/>
@@ -136,11 +136,11 @@ export const POST = async (event) => {
 		code="{code2}"
 		focusBlocks="{focusBlocks2}"
 		showFocusButtons="{true}"
-		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/5 rounded-2xl p-4 mb-2"
+		focusButtonClasses="bg-gray-600 cornsilk font-bold text-xl w-1/5 rounded-2xl p-2 mb-2"
 		showHeader="{false}"
 		showLineNumbers="{true}"
 	/>
-	<button class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4 mb-4"
+	<button class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4 my-4"
 		><a class="block" href="/my-third-page">/my-third-page</a></button
 	>
 </div>

@@ -86,7 +86,7 @@
 		on:click="{logJSONData}"><p>logJSONData</p></button
 	>
 	<button
-		class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+		class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 ml-4 mt-4"
 		on:click="{clearJSONData}"><p>clearJSONData</p></button
 	>
 	<p>jsonData {JSON.stringify(jsonData) ?? ''}</p>
@@ -124,7 +124,7 @@
 		on:click="{logTEXTData}"><p>logTEXTData</p></button
 	>
 	<button
-		class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4"
+		class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 ml-4 mt-4"
 		on:click="{clearTEXTData}"><p>clearTEXTData</p></button
 	>
 	<p>textData {JSON.stringify(textData) ?? ''}</p>
