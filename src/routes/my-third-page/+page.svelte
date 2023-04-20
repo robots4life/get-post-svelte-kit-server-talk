@@ -15,4 +15,10 @@
 	<button class="bg-gray-500 cornsilk font-bold text-2xl w-1/4 rounded-2xl p-4 mt-4 ml-4"
 		>Submit</button
 	>
+	<br /><br /><br /><br />
+	<div>
+		<button class="bg-gray-500 cornsilk font-bold text-2xl w-1/4 rounded-2xl p-3 mt-4 ml-4"
+			><a class="block" href="/6">/6</a></button
+		>
+	</div>
 </form>

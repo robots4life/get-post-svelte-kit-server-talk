@@ -12,15 +12,14 @@ export const GET = async () => {
 		time: Date.now(),
 		data: GETResponse
 	});
-
+	
+	// https://developer.mozilla.org/en-US/docs/Web/API/Response/Response
 	const options = {
 		status: 200,
 		headers: {
 			'Content-Type': 'application/json'
 		}
 	};
-
-	// https://developer.mozilla.org/en-US/docs/Web/API/Response/Response
 	return new Response(GETResponseJSONString, options);
 };`;
 	let focusBlocks1 = [
@@ -29,15 +28,15 @@ export const GET = async () => {
 		{ lines: '2', text: '2. export a GET function that corresponds to the HTTP verb GET' },
 		{ lines: '4', text: '3. define a string "GETResponse" as data for the response' },
 		{
-			lines: '6',
+			lines: '6-8',
 			text: '4. define a stringified object as data for the response'
 		},
 		{ lines: '7', text: '5. include the current time as key value pair' },
 		{ lines: '8', text: '6. include the "GETResponse" string as key value pair' },
-		{ lines: '11', text: '7. define the options object for the response' },
-		{ lines: '12', text: '8. define the status code in the options object' },
-		{ lines: '13-15', text: '9. define the headers in the options object' },
-		{ lines: '18-19', text: '10. return the response with the options' }
+		{ lines: '11-17', text: '7. define the options object for the response' },
+		{ lines: '13', text: '8. define the status code in the options object' },
+		{ lines: '14-16', text: '9. define the headers in the options object' },
+		{ lines: '18', text: '10. return the response with the options' }
 	];
 </script>
 
