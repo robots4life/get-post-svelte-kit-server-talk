@@ -25,7 +25,7 @@ export const GET = async () => {
 };`;
 	let focusBlocks1 = [
 		{ lines: '', text: 'remove blur' },
-		{ lines: '0', text: '1. create a new file +.server.js in src/routes/api/' },
+		{ lines: '0', text: '1. create a new file +server.js in src/routes/api/' },
 		{ lines: '2', text: '2. export a GET function that corresponds to the HTTP verb GET' },
 		{ lines: '4', text: '3. define a string "GETResponse" as data for the response' },
 		{
@@ -86,7 +86,6 @@ export const GET = async () => {
 		href="https://github.com/mdn/dom-examples/tree/main/fetch"
 		>https://github.com/mdn/dom-examples/tree/main/fetch</a
 	>
-	<h2>Let's see how this is done..</h2>
 </div>
 <div class="min-h-screen">
 	<h1>Create a new file +.server.js in src/routes/api/</h1>

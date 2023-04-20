@@ -91,11 +91,10 @@ export async function load() {
 		function on the server only.<br /><br />Use cases for this are when your load function needs
 		to fetch data from a database or you need to access private environment variables like API
 		keys.
-		<br /><br />Let's see how this is done..
 	</h2>
 </div>
 <div class="min-h-screen">
-	<h1>1.<br /><br />Create an .env file with a secret API key in the project root</h1>
+	<h1>1. Create an .env file with a secret API key in the project root</h1>
 	<CodeBlock
 		language="javascript"
 		code="{code1}"
@@ -107,9 +106,7 @@ export async function load() {
 	/>
 </div>
 <div class="min-h-screen">
-	<h1>
-		2.<br /><br />Create a +page.server.js file in src/routes/my-second-page/
-	</h1>
+	<h1>2. Create a +page.server.js file in src/routes/my-second-page/</h1>
 	<a
 		class="block mb-8"
 		target="_blank"
@@ -128,7 +125,7 @@ export async function load() {
 	/>
 </div>
 <div class="min-h-screen">
-	<h1>3.<br /><br />Create a new file +page.svelte in src/routes/my-second-page/</h1>
+	<h1>3. Create a new file +page.svelte in src/routes/my-second-page/</h1>
 	<CodeBlock
 		language="javascript"
 		code="{code3}"
