@@ -1,11 +1,13 @@
-// GET
+// GET Response
 export const GET = async () => {
+	//
 	// https://developer.mozilla.org/en-US/docs/Web/API/Response/Response
-	const GETResponse = 'GET_Data_Response';
-	console.log('GETResponse : ', GETResponse);
+	const GETResponse = 'GET Response - Hello from +server.js in src/routes/api';
 
-	const GETResponseJSONString = JSON.stringify({ time: Date.now(), body: GETResponse });
-	console.log('GETResponseJSONString : ', GETResponseJSONString);
+	const GETResponseJSONString = JSON.stringify({
+		time: Date.now(),
+		data: GETResponse
+	});
 
 	const options = {
 		status: 200,

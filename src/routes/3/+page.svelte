@@ -12,7 +12,7 @@ export async function load() {
 }
     `;
 	let focusBlocks1 = [
-		{ lines: '', text: 'Remove Blur' },
+		{ lines: '', text: 'remove blur' },
 		{
 			lines: '0',
 			text: '1: create a new file +page.js in src/routes/my-first-page/'
@@ -44,7 +44,7 @@ export async function load() {
 <h1>{JSON.stringify(data)}</h1>
 <h2>{data.greeting}</h2>`;
 	let focusBlocks2 = [
-		{ lines: '', text: 'Remove Blur' },
+		{ lines: '', text: 'remove blur' },
 		{
 			lines: '0',
 			text: '1: go to the +page.svelte file in src/routes/my-first-page/'

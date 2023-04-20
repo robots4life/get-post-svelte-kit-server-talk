@@ -6,7 +6,7 @@
     
 SECRET_API_KEY=1234567890`;
 	let focusBlocks1 = [
-		{ lines: '', text: 'Remove Blur' },
+		{ lines: '', text: 'remove blur' },
 		{
 			lines: '0',
 			text: '1: create a new file .env in the root directory of your project'
@@ -32,7 +32,7 @@ export async function load() {
 }`;
 
 	let focusBlocks2 = [
-		{ lines: '', text: 'Remove Blur' },
+		{ lines: '', text: 'remove blur' },
 		{ lines: '0', text: '1. create a new file +page.server.js in src/routes/my-second-page/' },
 		{
 			lines: '2',
@@ -63,7 +63,7 @@ export async function load() {
 <h1>{data.secretAPIKey}</h1>`;
 
 	let focusBlocks3 = [
-		{ lines: '', text: 'Remove Blur' },
+		{ lines: '', text: 'remove blur' },
 		{ lines: '0', text: '1. create a new file +page.svelte in src/routes/my-second-page/' },
 		{ lines: '2-4', text: '2. create a script block at the top of the file' },
 		{

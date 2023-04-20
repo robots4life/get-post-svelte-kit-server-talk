@@ -10,7 +10,7 @@
 <h3>Do you like Ice Cream ?</h3>
     `;
 	let focusBlocks1 = [
-		{ lines: '', text: 'Remove Blur' },
+		{ lines: '', text: 'remove blur' },
 		{
 			lines: '0',
 			text: '1: create a new file +page.svelte in src/routes/my-first-page/'

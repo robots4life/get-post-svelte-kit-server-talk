@@ -21,7 +21,7 @@
 }
     `;
 	let focusBlocks1 = [
-		{ lines: '', text: 'Remove Blur' },
+		{ lines: '', text: 'remove blur' },
 		{ lines: '0', text: '1: define the async function' },
 		{ lines: '1', text: '2: await fetch resource' },
 		{ lines: '2', text: '3: await fetch JSON response' },
@@ -46,7 +46,7 @@
 }
     `;
 	let focusBlocks2 = [
-		{ lines: '', text: 'Remove Blur' },
+		{ lines: '', text: 'remove blur' },
 		{ lines: '0', text: '1: define the async function' },
 		{ lines: '1', text: '2: await fetch resource' },
 		{ lines: '2', text: '3: await fetch TEXT response' },
