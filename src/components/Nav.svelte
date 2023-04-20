@@ -72,7 +72,7 @@
 			href="/"
 			class:active="{$page.url.pathname === '/'}"
 			class="text-4xl w-full h-full flex items-center justify-center 768:text-3xl"
-			on:click="{toggleMenuOnLogo}">0</a
+			on:click="{toggleMenuOnLogo}">Let's go</a
 		>
 		<button class="w-full h-full 768:hidden" on:click="{toggleMenu}">Menu</button>
 	</div>
