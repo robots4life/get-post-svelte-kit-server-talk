@@ -42,7 +42,7 @@ export const GET = async () => {
 </script>
 
 <div class="min-h-screen">
-	<h1>Create an API route with SvelteKit</h1>
+	<h1>GET data from an API route with SvelteKit</h1>
 	<h2>
 		As well as pages, you can define routes with a +server.js file, sometimes referred to as an
 		'API route', 'Endpoint', or a 'Server Endpoint'.<br /><br /> This gives you full control
