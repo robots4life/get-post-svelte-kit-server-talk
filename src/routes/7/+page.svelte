@@ -10,4 +10,4 @@
 <h2>8. GET data from an API route / Server Endpoint</h2>
 <h2>9. POST data to an API route / Server Endpoint</h2>
 
-<h1>Thank you</h1>
+<h1>Thank you ;)</h1>
