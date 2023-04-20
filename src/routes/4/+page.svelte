@@ -23,7 +23,7 @@ import { SECRET_API_KEY } from '$env/static/private';
 
 export async function load() {
 	console.log(SECRET_API_KEY);
-
+	// do work with a database that needs the SECRET_API_KEY
 	return {
 		greeting: 'hello from src/routes/4/+page.server.js',
 		neverDoThis: 'never supply secret environment variables to the page :)',
@@ -43,12 +43,13 @@ export async function load() {
 			text: '3. define the async load function'
 		},
 		{ lines: '5', text: '4. log the SECRET_API_KEY to the terminal' },
-		{ lines: '7-10', text: '5. return data for the page' },
-		{ lines: '8', text: '6. the greeting will be available on data.greeting' },
-		{ lines: '9', text: '7. never supply secret environment variables to the page :)' },
+		{ lines: '6', text: '5. do work with a database that needs the SECRET_API_KEY' },
+		{ lines: '7-10', text: '6. return data for the page' },
+		{ lines: '8', text: '7. the greeting will be available on data.greeting' },
+		{ lines: '9', text: '8. never supply secret environment variables to the page :)' },
 		{
 			lines: '10',
-			text: '8. you will be able to see the SECRET_API_KEY on the page if you do this'
+			text: '9. you will be able to see the SECRET_API_KEY on the page if you do this'
 		}
 	];
 
