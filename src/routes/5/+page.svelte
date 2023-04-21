@@ -115,17 +115,32 @@ export const GET = async () => {
 		><a class="block" href="/api">/src/routes/api</a></button
 	>
 	<a
-		class="block mb-8"
+		class="block my-8"
 		target="_blank"
 		rel="noreferrer"
 		href="https://github.com/hygraph/hygraph-sveltekit-portfolio-and-blog-starter/blob/main/src/routes/sitemap.xml/%2Bserver.js"
-		>https://github.com/hygraph/hygraph-sveltekit-portfolio-and-blog-starter/blob/main/src/routes/sitemap.xml/%2Bserver.js</a
+		>server.js</a
 	>
 	<a
-		class="block mb-8"
+		class="block my-8"
+		target="_blank"
+		rel="noreferrer"
+		href="https://portfolio.withheadlesscms.com/sitemap.xml"
+		>https://portfolio.withheadlesscms.com/sitemap.xml</a
+	>
+
+	<a
+		class="block my-8"
 		target="_blank"
 		rel="noreferrer"
 		href="https://github.com/hygraph/hygraph-sveltekit-portfolio-and-blog-starter/blob/main/src/routes/rss.xml/%2Bserver.js"
-		>https://github.com/hygraph/hygraph-sveltekit-portfolio-and-blog-starter/blob/main/src/routes/rss.xml/%2Bserver.js</a
+		>server.js</a
+	>
+	<a
+		class="block my-8"
+		target="_blank"
+		rel="noreferrer"
+		href="https://portfolio.withheadlesscms.com/rss.xml"
+		>https://portfolio.withheadlesscms.com/rss.xml</a
 	>
 </div>
