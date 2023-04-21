@@ -143,4 +143,11 @@ export const POST = async (event) => {
 	<button class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 mt-4 my-4"
 		><a class="block" href="/my-third-page">/my-third-page</a></button
 	>
+	<a
+		class="block mb-8"
+		target="_blank"
+		rel="noreferrer"
+		href="https://kit.svelte.dev/docs/routing#server-receiving-data"
+		>https://kit.svelte.dev/docs/routing#server-receiving-data</a
+	>
 </div>

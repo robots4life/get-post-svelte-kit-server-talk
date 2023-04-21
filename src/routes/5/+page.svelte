@@ -114,4 +114,18 @@ export const GET = async () => {
 	<button class="bg-gray-500 cornsilk font-bold text-xl w-1/4 rounded-2xl p-2 my-4"
 		><a class="block" href="/api">/src/routes/api</a></button
 	>
+	<a
+		class="block mb-8"
+		target="_blank"
+		rel="noreferrer"
+		href="https://github.com/hygraph/hygraph-sveltekit-portfolio-and-blog-starter/blob/main/src/routes/sitemap.xml/%2Bserver.js"
+		>https://github.com/hygraph/hygraph-sveltekit-portfolio-and-blog-starter/blob/main/src/routes/sitemap.xml/%2Bserver.js</a
+	>
+	<a
+		class="block mb-8"
+		target="_blank"
+		rel="noreferrer"
+		href="https://github.com/hygraph/hygraph-sveltekit-portfolio-and-blog-starter/blob/main/src/routes/rss.xml/%2Bserver.js"
+		>https://github.com/hygraph/hygraph-sveltekit-portfolio-and-blog-starter/blob/main/src/routes/rss.xml/%2Bserver.js</a
+	>
 </div>

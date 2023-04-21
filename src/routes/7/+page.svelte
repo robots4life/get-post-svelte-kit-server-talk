@@ -7,7 +7,7 @@
 <h2>5. Load data for a page with a Universal function</h2>
 <h2>6. Load data for a page with a Server-Side function</h2>
 <h2>7. Use private environment variables on the Server</h2>
-<h2>8. GET data from an API route / Server Endpoint</h2>
+<h2>8. GET data from an API route / Server Endpoint for sitemap.xml or rss.xml</h2>
 <h2>9. POST data to an API route / Server Endpoint</h2>
 
 <h1>Thank you ;)</h1>
